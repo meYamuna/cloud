@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <style>
+        #out{
+            background-color: rgb(205, 202, 202);
+            background-image: linear-gradient(90deg,rgb(241, 158, 158),rgb(235, 235, 162),rgb(165, 224, 165),rgb(112, 224, 232));
+            height:640px;
+            width:690px;
+            padding-top:210px;
+            padding-left:230px;
+            margin-left:300px;
+        }
+        #Calculator{
+            height: 300px;
+            width: 250px;
+            justify-content: center;
+        }
+        input{
+            border: none;
+            height: 98px;
+            width:355px; 
+            font-size:40px;
+            font-weight: 2em;
+            font-family: sans-serif;
+            color: black;
+            text-decoration:none;
+        }
+        button{
+            border: none;
+            font-size:30px;
+            color: #ffffff;
+            background: none;
+            height:80px;
+            width:115px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+        .AC{
+            background-color: rgb(43, 206, 154); 
+            width:121px;
+            height:100px;
+        }
+        .num{
+            background-color: black;
+        }
+        .sym{
+            background-color: grey;
+            width:10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="out">
+    <div id="in">
+    <table id="Calculator" cellspacing="0px" cellpadding="0px">
+        <tr>
+            <td>
+                <input type="text" id="inputBox">
+            </td>
+            <td> 
+                <table>
+                    <tr>
+                        <button class="AC">AC</button>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <table class="num">
+                    <tr>
+                        <td><button>9</button></td>
+                        <td><button>8</button></td>
+                        <td><button>7</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>4</button></td>
+                        <td><button>5</button></td>
+                        <td><button>6</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>1</button></td>
+                        <td><button>2</button></td>
+                        <td><button>3</button></td>
+                    </tr>
+                    <tr>
+                        <td><button>.</button></td>
+                        <td><button>0</button></td>
+                        <td><button>=</button></td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <table class="sym">
+                    <tr><td><button>+</button></td></tr>
+                    <tr><td><button>-</button></td></tr>
+                    <tr><td><button>/</button></td></tr>
+                    <tr><td><button>*</button></td></tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+    </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
