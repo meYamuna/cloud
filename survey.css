@@ -1,0 +1,61 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+
+  #main{
+    background-color: rgb(44, 115, 221);
+    height:855px;
+    width:900px;
+    padding-top:2px;
+    margin-left: 330px;
+  }
+  
+  .container {
+    background-color: white;
+    height: 700px;
+    max-width: 450px;
+    margin: 40px auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+  }
+  
+  label {
+    display:inline-table;
+    margin-bottom: 5px;
+  }
+  
+  input, select {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin-top: 20px;
+    margin-right: 10px;
+    cursor: pointer; 
+  }
+  
+  .popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background:rgb(239, 238, 238);
+    cursor: pointer;
+  }
+  .popupContent {
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .close {
+    float: right;
+    cursor: pointer;
+  }  
